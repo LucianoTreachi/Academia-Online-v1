@@ -81,6 +81,10 @@
 /* Media Queries: when touch 576px */
 @media only screen and (max-width: 576px) {
 
+  .hero-home {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home-mobile.jpg');
+  }
+
   .benefits {
 
     .box {
