@@ -1,0 +1,167 @@
+// Colors
+$green: #009688;
+$black1: #111;
+$black2: #222;
+$grey1: #3c3c3c;
+$grey2: #505050;
+$white1: #f9f9f9;
+$white2: #c8c8c8;
+
+/* for all the document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: .8rem;
+  border-radius: .5rem;
+  background-color: $black1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $grey1;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $grey2;
+}
+
+/* From Bootstrap */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-button {
+  padding-left: 0;
+}
+
+/* Reusable Classes */
+.float-btn {
+  position: fixed;
+  z-index: 2;
+  background-color: $green;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 18px -11px rgba(34, 34, 34, 1);
+  transition: .4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  i {
+    color: $white1;
+    font-size: 2rem;
+  } 
+}
+
+.particles-js {
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.hero-section {
+  padding: 4rem 7%;
+  min-height: 60vh;
+  text-align: center;
+  background: $black1;
+  z-index: 100;
+
+  .hero-info {
+    z-index: 1;
+
+    .hero-title {
+      color: $white1;
+      font-size: 2.5rem;
+      opacity: .9;
+      font-weight: 600;
+      text-transform: uppercase;
+      animation: fadeIn .4s linear backwards .2s;
+    }
+
+    p {
+      font-size: 1.2rem;
+      opacity: .9;
+      letter-spacing: 1px;
+      animation: fadeIn .4s linear backwards .4s;
+    }
+  }
+}
+
+.section-pages {
+  padding: 4rem 7%;
+}
+
+.title-section {
+  color: $green;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subtitle-section {
+  font-size: 1.2rem;
+}
+
+.scroll-down {
+  display: inline-block;
+  animation: fadeIn .4s linear backwards .6s;
+
+  i {
+    font-size: 3.5rem;
+    color: $green;
+  }
+}
+
+.btn-back {
+  color: $black1;
+  font-weight: 500;
+  transition: .4s;
+
+  &:hover {
+    color: $green;
+  }
+
+  i {
+    vertical-align: middle;
+    font-size: 1.5rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes backTitle {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+

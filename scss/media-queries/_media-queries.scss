@@ -1,0 +1,178 @@
+/* Media Queries: when touch 992px */
+@media only screen and (max-width: 992px) {
+
+  nav {
+
+    .navbar-brand {
+
+      img {
+        width: 10rem;
+      }
+    }
+
+    .navbar-collapse {
+
+      .navbar-nav {
+
+        .nav-item {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .hero-home {
+    text-align: left;
+
+    .hero-info {
+
+      .hero-title {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .professionals {
+  
+    .professionals-container {
+  
+      .swiper-button-next,
+      .swiper-button-prev {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .faqs {
+
+    .box {
+
+      .accordion {
+        width: 100%;
+      }
+    }
+  }
+
+  .contact {
+
+    .contact-row {
+
+      .col-1 {
+        flex-basis: 100%;
+
+        form {
+          max-width: 100%;
+        }
+      }
+
+      .col-2 {
+        flex-basis: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+
+        img {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+
+/* Media Queries: when touch 576px */
+@media only screen and (max-width: 576px) {
+
+  .benefits {
+
+    .box {
+      gap: 0;
+    }
+  }
+
+  .professionals {
+
+    .professionals-container {
+
+      .swiper-button-next {
+        top: calc(100% - 83%);
+      }
+    
+      .swiper-button-prev {
+        top: calc(100% - 83%);
+      }
+    }
+  } 
+
+  .courses {
+
+    .container {
+
+      .course-info {
+        gap: 2rem;
+
+        .col-1 {
+          flex-basis: 100%;
+          text-align: center;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .col-2 {
+          flex-basis: 100%;
+          text-align: left;
+
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Media Queries: when touch 320px */
+@media only screen and (max-width: 320px) {
+  nav {
+
+    .navbar-brand {
+
+      img {
+        width: 8rem;
+      }
+    }
+  }
+
+  .hero-section {
+  
+    .hero-info {
+  
+      .hero-title {
+        font-size: 2rem;
+      }
+  
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .title-section {
+    font-size: 2rem;
+  }
+
+  .professionals {
+
+    .professionals-container {
+
+      .swiper-button-next {
+        top: calc(100% - 87%);
+      }
+    
+      .swiper-button-prev {
+        top: calc(100% - 87%);
+      }
+    }
+  } 
+ 
+}

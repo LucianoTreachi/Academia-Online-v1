@@ -1,0 +1,46 @@
+/* Courses */
+.courses {
+  @extend .section-pages;
+
+  .course-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-bottom: 5rem;
+
+    .col-1 {
+      flex-basis: 30%;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+
+    .col-2 {
+      flex-basis: 60%;
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: $black2;
+        line-height: 1.8;
+      }
+
+      .icons {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+
+        img {
+          width: 2rem;
+        }
+      }
+    }
+  }
+}

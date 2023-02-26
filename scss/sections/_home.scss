@@ -1,0 +1,271 @@
+/* Home */
+.hero-home {
+  padding: 4rem 7%;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+
+  .hero-info {
+    z-index: 1;
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-text-stroke: 1px $green;
+      background-image: url('../assets/img/back.png');
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: fadeIn .4s linear backwards .2s, backTitle 20s linear infinite;
+
+      span {
+        color: $green;
+      }
+    }
+
+    p {
+      font-size: 1.3rem;
+      animation: fadeIn .4s linear backwards .4s;
+
+      span {
+        color: $green;
+        font-weight: bold;
+      }
+    }
+
+    .btn {
+      padding: .5rem 2rem;
+      animation: fadeIn .4s linear backwards .6s;
+    }
+  }
+}
+
+/* Cards Home */
+.cards-home {
+  padding: 4rem 2rem 6rem;
+
+  .card {
+    min-height: 100%;
+
+    .card-body {
+      background: transparent;
+      border: 2px solid $green;
+
+      i {
+        font-size: 4rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        line-height: 1.8;
+      }
+    }
+  }
+}
+
+/* Live Classes */
+.live-classes {
+  padding: 0 2rem 6rem;
+
+  img {
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+/* Professionals */
+.professionals {
+  padding: 0 2rem 6rem;
+
+  .professionals-container {
+    margin-top: 3rem;
+    overflow: hidden;
+
+
+    .professional-box {
+      padding-bottom: 20px;
+
+      .profile-pic {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+
+      h4 {
+        font-size: 1rem;
+        text-transform: capitalize;
+      }
+
+      .brand-pic {
+        width: 150px;
+        margin: 20px 0;
+      }
+
+      .uala {
+        transform: translateY(-7px);
+      }
+
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .swiper-slide {
+      margin-bottom: 2.5rem;
+    }
+
+    .swiper-button-next {
+      right: 0;
+      top: calc(100% - 80%);
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, .5);
+    }
+
+    .swiper-button-prev {
+      left: 0;
+      top: calc(100% - 80%);
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, .5);
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      content: '';
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: initial;
+      height: initial;
+      margin: initial;
+      font-size: 3rem;
+      color: $white1;
+    }
+
+    .swiper-pagination-bullets {
+      bottom: 0;
+    }
+
+    .swiper-pagination-bullet {
+      background-color: $grey2;
+      opacity: initial;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: $green;
+    }
+  }
+}
+
+.benefits {
+  padding: 0 2rem 6rem;
+
+  .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+
+    .benefit {
+      margin-top: 2rem;
+      padding: 0 20px 0 0;
+
+      i {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+/* Faqs */
+.faqs {
+  padding: 0 2rem 5rem;
+
+  .accordion {
+    padding-top: 2rem;
+    width: 100%;
+
+    .accordion-item {
+      margin: 1.5rem 0;
+
+      .accordion-header {
+        line-height: 1.7;
+
+        .accordion-button {
+          outline: none;
+          box-shadow: none;
+          border: 0;
+          background: transparent;
+          color: inherit;
+          font-size: 1.1rem;
+          font-weight: 500;
+        }
+
+        .accordion-button:not(.collapsed)::after {
+          background-image: var(--bs-accordion-btn-icon);
+        }
+      }
+
+      .accordion-body {
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
+      }
+    }
+  }
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 0 2rem 6rem;
+
+  .box {
+    padding-top: 2rem;
+    max-width: 50rem;
+
+    form {
+      width: 500px;
+      max-width: 100%;
+
+      .email {
+        width: 100%;
+        background: none;
+        color: $black1;
+        padding: 1.2rem;
+        border: 0.2rem solid $green;
+        border-radius: .5rem;
+        outline: none;
+      }
+
+      .btn {
+        margin-top: 1rem;
+        padding: 1rem 3rem;
+        width: 100%;
+        border-radius: .5rem;
+        background: $green;
+        color: $white1;
+        opacity: .85;
+        transition: .4s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

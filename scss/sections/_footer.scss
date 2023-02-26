@@ -1,0 +1,62 @@
+/* Footer */
+footer {
+  padding: 4rem 2rem;
+  background: $black1;
+
+  .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h2 {
+        font-size: 1.6rem;
+        color: $green;
+        text-transform: uppercase;
+        opacity: .8;
+        margin-bottom: 2rem;
+      }
+
+      a {
+        font-weight: 300;
+        color: $white1;
+        margin-bottom: 1.2rem;
+        opacity: .6;
+        transition: .4s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .socials {
+        display: flex;
+        gap: 1rem;
+
+        i {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .copy {
+    margin-top: 2rem;
+    color: $white1;
+    font-weight: 300;
+    opacity: .5;
+    letter-spacing: 1px;
+  }
+
+  .arrow {
+    display: inline-block;
+    font-size: 3rem;
+    color: $green;
+    opacity: .8;
+    cursor: pointer;
+  }
+}

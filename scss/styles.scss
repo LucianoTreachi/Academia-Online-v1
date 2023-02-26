@@ -1,0 +1,16 @@
+// GLOBAL: colors, fonts, *, html, scrollbar, reusable classes, animations 
+@import './global/global';
+
+// SECTIONS
+@import './sections/header';
+@import './sections/nav';
+@import './sections/home';
+@import './sections/about';
+@import './sections/testimonials';
+@import './sections/courses';
+@import './sections/contact';
+@import './sections/footer';
+
+
+// MEDIA QUERIES
+@import './media-queries/media-queries';

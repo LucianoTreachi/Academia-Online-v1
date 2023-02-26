@@ -1,0 +1,109 @@
+/* Contact */
+.contact {
+  @extend .section-pages;
+
+  .contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .col-1 {
+      flex-basis: 50%;
+
+      form {
+        max-width: 450px;
+        margin: 30px 0;
+        position: relative;
+
+        input {
+          width: 100%;
+          padding: 12px 10px;
+          margin-bottom: 12px;
+          outline: none;
+          box-shadow: none;
+          box-sizing: border-box;
+          border: 2px solid $green;
+          border-radius: 10px;
+        }
+
+        input[type="submit"] {
+          width: 100%;
+          padding: 12px 10px;
+          margin-top: 15px;
+          border: none;
+          background: $green;
+          color: #ffffff;
+          font-weight: 600;
+          opacity: .85;
+          cursor: pointer;
+          transition: .4s;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        p {
+          color: $black2;
+          margin-bottom: 5px;
+        }
+
+        .select-box {
+          height: 45px;
+          width: 100%;
+          overflow: hidden;
+          border: 2px solid $green;
+          border-radius: 10px;
+          position: relative;
+
+          select {
+            height: 45px;
+            width: 100%;
+            padding: 5px;
+            background: transparent;
+            border: none;
+            outline: none;
+
+            &:focus {
+              outline: none;
+            }
+          }
+
+          i {
+            position: absolute;
+            font-size: 2rem;
+            color: $white1;
+            top: -2px;
+            right: 5px;
+            z-index: 1;
+            pointer-events: none;
+          }
+
+          &::after {
+            content: '';
+            display: table-cell;
+            padding-top: 7px;
+            text-align: center;
+            width: 45px;
+            height: 45px;
+            background: $green;
+            position: absolute;
+            top: 0;
+            right: 0;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+
+    .col-2 {
+      flex-basis: 50%;
+      padding-left: 2rem;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+}

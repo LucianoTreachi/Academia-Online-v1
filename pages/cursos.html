@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>ACADEMIA IT | Cursos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mirá todos los cursos que tenemos!">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ACADEMIA IT | Cursos">
+  <meta property="og:description" content="Mirá todos los cursos que tenemos!">
+  <meta property="og:url" content="https://lucianotreachi.github.io/Academia-Online-v1/">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/LucianoTreachi/Academia-Online-v1/main/assets/readme/banner.jpg">
+  <meta property="og:image:alt" content="Banner ACADEMIA IT">
+  <meta property="og:image:width" content="1880">
+  <meta property="og:image:height" content="939">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@AcademiaIt">
+  <meta name="twitter:title" content="ACADEMIA IT | Cursos">
+  <meta name="twitter:description" content="Mirá todos los cursos que tenemos!">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/LucianoTreachi/Academia-Online-v1/main/assets/readme/banner.jpg">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../assets/icons/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+  <!-- Remix Icon -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="preload" as="style" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- CSS -->
+  <link rel="preload" as="style" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <!-- float button -->
+  <a href="../pages/contacto.html#contact" class="float-btn" aria-label="Puedes solicitar información aquí">
+    <i class="ri-mail-send-line"></i>
+  </a>
+
+  <!--===============================
+  HEADER & NAV
+  ================================-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/logo.png" alt="logo" class="main-logo">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">MENU
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <!-- Nosotros -->
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <!-- Testimonios -->
+            <li class="nav-item">
+              <a class="nav-link" href="./testimonios.html">Testimonios</a>
+            </li>
+            <!-- Cursos -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <h6 class="dropdown-header">Todos los cursos</h6>
+                </li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#courses">Desarrollo Web</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#marketing">Marketing Digital</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#imagenes">Edición de Imágenes</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#video">Edición de Video</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#apps">Desarrollo de Apps</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#ux">UX / UI Design</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#copywriting">Copywriting</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#redes">Redes</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#data">Data Science</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#ciberseguridad">Ciberseguridad</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#criptomonedas">Criptomonedas</a></li>
+                <li><a class="dropdown-item" href="../pages/cursos.html#liderazgo">Liderazgo</a></li>
+              </ul>
+            </li>
+            <!-- Contacto -->
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--===============================
+  MAIN
+  ================================-->
+
+  <main>
+
+    <!-- Particles -->
+    <div id="particles-js" class="particles-js"></div>
+
+    <!--===== HERO =====-->
+    <section class="hero-section d-flex justify-content-center align-items-center">
+      <div class="hero-info">
+        <h1 class="hero-title">Cursos</h1>
+        <p class="text-white fst-italic">Mirá todos los cursos que tenemos!</p>
+
+        <div class="scroll-down">
+          <a href="#courses" class="arrow" aria-label="ver la información">
+            <i class="ri-arrow-down-s-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--===== COURSES =====-->
+    <section id="courses" class="courses">
+
+      <div class="container">
+
+        <!-- Course 1 -->
+        <div class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-1.avif" type="image/avif">
+              <source srcset="../assets/img/course-1.webp" type="image/webp">
+              <img src="../assets/img/course-1.jpg" alt="Desarrollo Web">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Desarrollo Web</h2>
+            <p>
+              En este curso aprenderás a crear modernos sitios web que se adapten a todos los dispositivos. Utilizarás
+              HTML5, CSS3, JS, Bootstrap, Sass, y React. Te sumergirás en las mejores prácticas del desarrollo web.
+              También comprenderás lo importante del SEO en tus desarrollos.
+            </p>
+            <p>
+              Al finalizar, subirás tu sitio a un servidor, y aprenderás a interactuar con este servicio. También sabrás
+              cómo presentar un presupuesto y atender a tu cliente final.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/html5.png" alt="html5" loading="lazy">
+              <img src="../assets/icons/css3.png" alt="css3" loading="lazy">
+              <img src="../assets/icons/js.png" alt="js" loading="lazy">
+              <img src="../assets/icons/bootstrap.png" alt="bootstrap" loading="lazy">
+              <img src="../assets/icons/sass.png" alt="sass" loading="lazy">
+              <img src="../assets/icons/react.png" alt="react" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div id="marketing" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-2.avif" type="image/avif">
+              <source srcset="../assets/img/course-2.webp" type="image/webp">
+              <img src="../assets/img/course-2.jpg" alt="Marketing Digital" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Marketing Digital</h2>
+            <p>
+              En este curso aprenderás las nociones centrales del marketing de contenidos y la creación de una
+              estrategia práctica para la adquisición de potenciales clientes. Crearás un plan de contenidos para
+              aplicar en redes sociales, blogs, newsletters y otros canales.
+            </p>
+            <p>
+              Aprenderás hacer campañas para facebook e instagram, google adsense, y google analytics.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/meta.png" alt="meta" loading="lazy">
+              <img src="../assets/icons/instagram.png" alt="instagram" loading="lazy">
+              <img src="../assets/icons/ads.png" alt="google ads" loading="lazy">
+              <img src="../assets/icons/analytics.png" alt="google analytics" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div id="imagenes" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-3.avif" type="image/avif">
+              <source srcset="../assets/img/course-3.webp" type="image/webp">
+              <img src="../assets/img/course-3.jpg" alt="Edición de Imágenes" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Edición de Imágenes</h2>
+            <p>
+              En este curso aprenderás a utilizar las herramientas profesionales más destacadas del universo gráfico:
+              Adobe Photoshop, Adobe Lightroom y Adobe Illustrator.
+            </p>
+            <p>
+              Diseñarás el branding de tu propia marca, crearás piezas gráficas para redes sociales, y podrás comunicar
+              tanto ideas como conceptos mediante el uso del lenguaje visual.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/ps.png" alt="adobe photoshop" loading="lazy">
+              <img src="../assets/icons/lr.png" alt="adobe lightroom" loading="lazy">
+              <img src="../assets/icons/ai.png" alt="adobe illustrator" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div id="video" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-4.avif" type="image/avif">
+              <source srcset="../assets/img/course-4.webp" type="image/webp">
+              <img src="../assets/img/course-4.jpg" alt="Edición de Video" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Edición de Video</h2>
+            <p>
+              En este curso aprenderás a crear y editar videos mediante herramientas como Adobe Premier Pro y Adobe
+              After Effects. Comenzarás desde cero hasta crear tus propios videos y animaciones, manipulando todo tipo
+              de detalles y movimientos.
+            </p>
+            <p>
+              Al terminar el curso podrás animar cualquier pieza gráfica, lo que te permitirá crear contenido de calidad
+              para redes sociales y otras plataformas.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/pr.png" alt="adobe premiere pro" loading="lazy">
+              <img src="../assets/icons/ae.png" alt="adobe after effects" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div id="apps" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-5.avif" type="image/avif">
+              <source srcset="../assets/img/course-5.webp" type="image/webp">
+              <img src="../assets/img/course-5.jpg" alt="Desarrollo de Apps" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Desarrollo de Apps</h2>
+            <p>
+              En este curso aprenderás los conocimientos y bases para crear aplicaciones bridge con capacidad de
+              despliegue tanto para Android como iOS, utilizando React Native, Javascript y un software de prototipado
+              como Sketch o Adobe Xd.
+            </p>
+            <p>
+              Te conectarás a APIs y aprenderás la capacidad de sync con Firebase o Realm db. Al finalizar este curso
+              estarás en condiciones de desarrollar, implementar y desplegar tu propia aplicación móvil.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/android.png" alt="android" loading="lazy">
+              <img src="../assets/icons/ios.png" alt="ios" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 6 -->
+        <div id="ux" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-6.avif" type="image/avif">
+              <source srcset="../assets/img/course-6.webp" type="image/webp">
+              <img src="../assets/img/course-6.jpg" alt="Diseño UX / UI" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Diseño UX / UI</h2>
+            <p>
+              En este curso aprenderás a hacer un research, e investigar acerca de un problema para crear una solución a
+              través de una app o sitio web. Pasarás también por la definición de un público objetivo o usuario, para el
+              desarrollo del prototipo.
+            </p>
+            <p>
+              Finalmente, aprenderás metodologías de diseño para tu proyecto, e incorporarás conocimientos de
+              disciplinas proyectuales.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/figma.png" alt="figma" loading="lazy">
+              <img src="../assets/icons/xd.png" alt="adobe XD" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 7 -->
+        <div id="copywriting" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-7.avif" type="image/avif">
+              <source srcset="../assets/img/course-7.webp" type="image/webp">
+              <img src="../assets/img/course-7.jpg" alt="Copywriting" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Copywriting</h2>
+            <p>
+              En este curso conocerás y aplicarás los principios del copywriting para la redacción de textos persuasivos
+              para una marca o emprendimiento. Elaborarás mensajes en diferentes formatos para conquistar a los
+              usuarios, impulsar las ventas de una marca y fidelizar a los clientes.
+            </p>
+            <p>
+              En el proceso, profundizarás en las implicancias del rol, su práctica y las herramientas más usadas en
+              esta prometedora disciplina.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/answer.png" alt="answer" loading="lazy">
+              <img src="../assets/icons/trends.png" alt="google trends" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 8 -->
+        <div id="redes" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-8.avif" type="image/avif">
+              <source srcset="../assets/img/course-8.webp" type="image/webp">
+              <img src="../assets/img/course-8.jpg" alt="Redes Informáticas" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Redes Informáticas</h2>
+            <p>
+              En este curso aprenderás acerca de la manera como funcionan las redes, sus principales características y
+              de qué modo se pueden implementar. Es fácil de aprender y solo se requiere tener conocimientos
+              elementales.
+            </p>
+            <p>
+              Vas a comprender los conceptos de las redes y las comunicaciones actuales; entender los distintos
+              componentes que conforman una red de ordenadores local y global; analizar los fundamentos de
+              direccionamiento IPv4; y entender los fundamentos de direccionamiento IPv6, entre otras cosas más.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/redes.png" alt="redes" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 9 -->
+        <div id="data" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-9.avif" type="image/avif">
+              <source srcset="../assets/img/course-9.webp" type="image/webp">
+              <img src="../assets/img/course-9.jpg" alt="Data Science" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Data Science</h2>
+            <p>
+              En este curso aprenderás la construccion de modelos de Machine Learning que solucionen problemas reales en
+              diversas industrias de manera predictiva. Usaremos el lenguaje de programación Python para construir
+              programas computacionales que aprendan de la experiencia y den soporte a la toma de decisiones en el
+              sector financiero, deportivo y comercial.
+            </p>
+            <p>
+              Al terminar el curso estarás en condiciones de crear modelos de Machine Learning a partir de datos en
+              estado puro.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/python.png" alt="python" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 10 -->
+        <div id="ciberseguridad" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-10.avif" type="image/avif">
+              <source srcset="../assets/img/course-10.webp" type="image/webp">
+              <img src="../assets/img/course-10.jpg" alt="Ciberseguridad" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Ciberseguridad</h2>
+            <p>
+              En este curso aprenderás los conceptos fundamentales de ciberseguridad para identificar las amenazas y
+              ataques más comunes, seguridad de redes, técnicas de autenticación/autorización, desarrollo seguros y
+              ethical hacking.
+            </p>
+            <p>
+              Al finalizar este curso podrás implementar técnicas para descubrir vulnerabilidades, comprender amenazas y
+              mantener una organización segura.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/ciberseguridad.png" alt="ciberseguridad" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 11 -->
+        <div id="criptomonedas" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-11.avif" type="image/avif">
+              <source srcset="../assets/img/course-11.webp" type="image/webp">
+              <img src="../assets/img/course-11.jpg" alt="Criptomonedas" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Criptomonedas</h2>
+            <p>
+              En este curso aprenderás los aspectos básicos, operativos y tributarios para sumergirte en el ecosistema
+              cripto. Partirás desde sus bases para gestionar de forma eficiente una cartera de criptoactivos
+              contemplando las normativas fiscales, financieras y de compliance que regulan este mundo.
+            </p>
+            <p>
+              También aprendrás a operar y hacer trading desde plataformas como Binance y Kucoin.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/binance.png" alt="binance" loading="lazy">
+              <img src="../assets/icons/kucoin.png" alt="kucoin" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Course 12 -->
+        <div id="liderazgo" class="course-info">
+          <div class="col-1">
+            <picture>
+              <source srcset="../assets/img/course-12.avif" type="image/avif">
+              <source srcset="../assets/img/course-12.webp" type="image/webp">
+              <img src="../assets/img/course-12.jpg" alt="Liderazgo" loading="lazy">
+            </picture>
+          </div>
+          <div class="col-2">
+            <h2>Liderazgo</h2>
+            <p>
+              En este curso aprenderás los conocimientos y las herramientas que te permitan liderar con eficacia
+              organizaciones y conducir eficazmente equipos de trabajo.
+            </p>
+            <p>
+              Aprenderás cómo influir positivamente sobre el grupo y resolver conflictos en forma creativa, herramientas
+              para gestionar eficazmente equipos de trabajo de alto rendimiento y nuevos modelos de comunicación.
+            </p>
+            <div class="icons">
+              <img src="../assets/icons/liderazgo.png" alt="Liderazgo" loading="lazy">
+            </div>
+            <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
+          </div>
+        </div>
+
+        <!-- Back -->
+        <a href="../index.html" class="btn-back"><i class="ri-arrow-left-line"></i> Volver al home</a>
+
+      </div>
+
+    </section>
+  </main>
+
+  <!--===============================
+  FOOTER
+  ================================-->
+
+  <footer>
+    <div class="container">
+      <div class="box">
+
+        <div class="col">
+          <h2>ACADEMIA IT</h2>
+          <a href="../index.html">Home</a>
+          <a href="./nosotros.html">Nosotros</a>
+          <a href="./testimonios.html">Testimonios</a>
+          <a href="./cursos.html">Cursos</a>
+          <a href="./contacto.html">Contacto</a>
+        </div>
+
+        <div class="col">
+          <h2>Términos</h2>
+          <a href="#0">Términos y condiciones</a>
+          <a href="#0">Políticas de privacidad</a>
+        </div>
+
+        <div class="col">
+          <h2>Redes</h2>
+          <div class="socials">
+            <a href="https://www.linkedin.com" target="_blank" aria-label="Linkedin">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" aria-label="Youtube">
+              <i class="ri-youtube-fill"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="copy">&#169; 2023 | Todos los derechos reservados</p>
+      <a href="#" aria-label="volver arriba">
+        <i class="ri-arrow-up-s-line arrow"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!--===============================
+  SCRIPTS
+  ================================-->
+
+  <!-- Particles Js -->
+  <script src="../js/particles.min.js"></script>
+  <script src="../js/particles.js"></script>
+
+  <!-- Bootstrap Js -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
