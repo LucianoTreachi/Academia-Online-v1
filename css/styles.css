@@ -409,10 +409,16 @@ nav {
       max-width: 450px;
       margin: 30px 0;
       position: relative; }
+      .contact .contact-row .col-1 form .container-input {
+        margin-bottom: 12px; }
+      .contact .contact-row .col-1 form .label-input {
+        display: block;
+        font-size: .9rem;
+        color: var(--white);
+        margin-bottom: .5rem; }
       .contact .contact-row .col-1 form input {
         width: 100%;
         padding: 12px 10px;
-        margin-bottom: 12px;
         outline: none;
         box-shadow: none;
         box-sizing: border-box;
@@ -420,8 +426,8 @@ nav {
         border-radius: 10px; }
       .contact .contact-row .col-1 form input[type="submit"] {
         width: 100%;
+        margin-top: 20px;
         padding: 12px 10px;
-        margin-top: 15px;
         border: none;
         background: #009688;
         color: #ffffff;
@@ -432,8 +438,9 @@ nav {
         .contact .contact-row .col-1 form input[type="submit"]:hover {
           opacity: 1; }
       .contact .contact-row .col-1 form p {
+        font-size: .9rem;
         color: #222;
-        margin-bottom: 5px; }
+        margin: 12px 0; }
       .contact .contact-row .col-1 form .select-box {
         height: 45px;
         width: 100%;

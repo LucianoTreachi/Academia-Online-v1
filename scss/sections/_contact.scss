@@ -15,10 +15,20 @@
         margin: 30px 0;
         position: relative;
 
+        .container-input {
+          margin-bottom: 12px;
+        }
+
+        .label-input {
+          display: block;
+          font-size: .9rem;
+          color: var(--white);
+          margin-bottom: .5rem;
+        }
+
         input {
           width: 100%;
           padding: 12px 10px;
-          margin-bottom: 12px;
           outline: none;
           box-shadow: none;
           box-sizing: border-box;
@@ -28,8 +38,8 @@
 
         input[type="submit"] {
           width: 100%;
+          margin-top: 20px;
           padding: 12px 10px;
-          margin-top: 15px;
           border: none;
           background: $green;
           color: #ffffff;
@@ -44,8 +54,9 @@
         }
 
         p {
+          font-size: .9rem;
           color: $black2;
-          margin-bottom: 5px;
+          margin: 12px 0;
         }
 
         .select-box {
