@@ -2,24 +2,26 @@
 .hero-home {
   padding: 4rem 7%;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home-desktop.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/img/home-desktop.webp");
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
+  min-height: 70svh;
 
   .hero-info {
     z-index: 1;
 
     .hero-title {
-      font-size: 3rem;
+      font-size: 4rem;
       font-weight: 600;
       text-transform: uppercase;
       -webkit-text-stroke: 1px $green;
-      background-image: url('../assets/img/back.png');
+      background-image: url("../assets/img/back.png");
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
-      animation: fadeIn .4s linear backwards .2s, backTitle 20s linear infinite;
+      animation: fadeIn 0.4s linear backwards 0.2s,
+        backTitle 20s linear infinite;
 
       span {
         color: $green;
@@ -28,7 +30,7 @@
 
     p {
       font-size: 1.3rem;
-      animation: fadeIn .4s linear backwards .4s;
+      animation: fadeIn 0.4s linear backwards 0.4s;
 
       span {
         color: $green;
@@ -37,15 +39,15 @@
     }
 
     .btn {
-      padding: .5rem 2rem;
-      animation: fadeIn .4s linear backwards .6s;
+      padding: 0.5rem 2rem;
+      animation: fadeIn 0.4s linear backwards 0.6s;
     }
   }
 }
 
 /* Cards Home */
 .cards-home {
-  padding: 4rem 2rem 6rem;
+  padding: 6rem 2rem 8rem;
 
   .card {
     min-height: 100%;
@@ -73,7 +75,7 @@
 
 /* Live Classes */
 .live-classes {
-  padding: 0 2rem 6rem;
+  padding: 0 2rem 8rem;
 
   img {
     margin-top: 3rem;
@@ -84,18 +86,18 @@
 
 /* Professionals */
 .professionals {
-  padding: 0 2rem 6rem;
+  padding: 0 2rem 8rem;
 
   .professionals-container {
     margin-top: 3rem;
     overflow: hidden;
-
 
     .professional-box {
       padding-bottom: 20px;
 
       .profile-pic {
         width: 100%;
+        height: auto;
         border-radius: 10px;
         margin-bottom: 10px;
       }
@@ -134,19 +136,19 @@
       right: 0;
       top: calc(100% - 80%);
       border-radius: 5px;
-      background-color: rgba(0, 0, 0, .5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
     .swiper-button-prev {
       left: 0;
       top: calc(100% - 80%);
       border-radius: 5px;
-      background-color: rgba(0, 0, 0, .5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
     .swiper-button-next::after,
     .swiper-button-prev::after {
-      content: '';
+      content: "";
     }
 
     .swiper-button-next,
@@ -173,8 +175,9 @@
   }
 }
 
+/* Benefits */
 .benefits {
-  padding: 0 2rem 6rem;
+  padding: 0 2rem 8rem;
 
   .box {
     display: grid;
@@ -194,7 +197,11 @@
 
 /* Faqs */
 .faqs {
-  padding: 0 2rem 5rem;
+  padding: 0 2rem 8rem;
+
+  .container {
+    max-width: 1200px;
+  }
 
   .accordion {
     padding-top: 2rem;
@@ -225,6 +232,7 @@
         font-size: 1rem;
         line-height: 1.7;
         text-align: left;
+        padding: 1rem 4rem 1rem 0;
       }
     }
   }
@@ -232,15 +240,15 @@
 
 /* Newsletter */
 .newsletter {
-  padding: 0 2rem 6rem;
+  padding: 0 2rem 8rem;
 
   .box {
     padding-top: 2rem;
-    max-width: 50rem;
 
     form {
-      width: 500px;
+      width: 700px;
       max-width: 100%;
+      margin: 0 auto;
 
       .email {
         width: 100%;
@@ -248,7 +256,7 @@
         color: $black1;
         padding: 1.2rem;
         border: 0.2rem solid $green;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         outline: none;
       }
 
@@ -256,11 +264,11 @@
         margin-top: 1rem;
         padding: 1rem 3rem;
         width: 100%;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         background: $green;
         color: $white1;
-        opacity: .85;
-        transition: .4s;
+        opacity: 0.85;
+        transition: 0.4s;
 
         &:hover {
           opacity: 1;

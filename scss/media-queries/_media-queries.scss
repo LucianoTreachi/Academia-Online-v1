@@ -1,19 +1,14 @@
 /* Media Queries: when touch 992px */
 @media only screen and (max-width: 992px) {
-
   nav {
-
     .navbar-brand {
-
       img {
         width: 10rem;
       }
     }
 
     .navbar-collapse {
-
       .navbar-nav {
-
         .nav-item {
           margin: 0;
         }
@@ -25,7 +20,6 @@
     text-align: left;
 
     .hero-info {
-
       .hero-title {
         font-size: 2.5rem;
       }
@@ -33,9 +27,7 @@
   }
 
   .professionals {
-  
     .professionals-container {
-  
       .swiper-button-next,
       .swiper-button-prev {
         font-size: 2rem;
@@ -44,9 +36,7 @@
   }
 
   .faqs {
-
     .box {
-
       .accordion {
         width: 100%;
       }
@@ -54,9 +44,7 @@
   }
 
   .contact {
-
     .contact-row {
-
       .col-1 {
         flex-basis: 100%;
 
@@ -80,36 +68,60 @@
 
 /* Media Queries: when touch 576px */
 @media only screen and (max-width: 576px) {
+  .title-section {
+    text-align: left;
+  }
+
+  .subtitle-section {
+    text-align: left;
+  }
 
   .hero-home {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home-mobile.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../assets/img/home-mobile.webp");
+    min-height: 60svh;
+  }
+
+  .cards-home {
+    padding: 4rem 2rem 6rem;
+  }
+
+  .live-classes {
+    padding: 0 2rem 8rem;
+  }
+
+  .professionals {
+    padding: 0 2rem 6rem;
+
+    .professionals-container {
+      .swiper-button-next {
+        top: calc(100% - 83%);
+      }
+
+      .swiper-button-prev {
+        top: calc(100% - 83%);
+      }
+    }
   }
 
   .benefits {
+    padding: 0 2rem 6rem;
 
     .box {
       gap: 0;
     }
   }
 
-  .professionals {
+  .faqs {
+    padding: 0 2rem 6rem;
+  }
 
-    .professionals-container {
-
-      .swiper-button-next {
-        top: calc(100% - 83%);
-      }
-    
-      .swiper-button-prev {
-        top: calc(100% - 83%);
-      }
-    }
-  } 
+  .newsletter {
+    padding: 0 2rem 6rem;
+  }
 
   .courses {
-
     .container {
-
       .course-info {
         gap: 2rem;
 
@@ -138,9 +150,7 @@
 /* Media Queries: when touch 320px */
 @media only screen and (max-width: 320px) {
   nav {
-
     .navbar-brand {
-
       img {
         width: 8rem;
       }
@@ -148,13 +158,11 @@
   }
 
   .hero-section {
-  
     .hero-info {
-  
       .hero-title {
         font-size: 2rem;
       }
-  
+
       p {
         font-size: 1rem;
       }
@@ -166,17 +174,14 @@
   }
 
   .professionals {
-
     .professionals-container {
-
       .swiper-button-next {
         top: calc(100% - 87%);
       }
-    
+
       .swiper-button-prev {
         top: calc(100% - 87%);
       }
     }
-  } 
- 
+  }
 }

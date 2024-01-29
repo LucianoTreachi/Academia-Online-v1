@@ -2,11 +2,32 @@
 <html lang="es">
 
 <head>
-  <title>ACADEMIA IT | Cursos</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACADEMIA IT | Cursos</title>
   <meta name="description" content="Mirá todos los cursos que tenemos!">
+
+  <!-- Google Fonts -->
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+  <!-- Preload -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="preload" as="style" href="../css/bootstrap.min.css">
+  <link rel="preload" as="style" href="../css/styles.css">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Scripts -->
+  <script src="../js/particles.min.js" defer></script>
+  <script src="../js/particles.js" defer></script>
+  <script src="../js/bootstrap.bundle.min.js" defer></script>
 
   <!-- Open Graph -->
   <meta property="og:title" content="ACADEMIA IT | Cursos">
@@ -29,48 +50,24 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/icons/favicon.ico">
-
-  <!-- Google Fonts -->
-  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
-
-  <!-- Remix Icon -->
-  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-
-  <!-- Bootstrap CSS -->
-  <link rel="preload" as="style" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-
-  <!-- CSS -->
-  <link rel="preload" as="style" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-
   <!-- float button -->
   <a href="../pages/contacto.html#contact" class="float-btn" aria-label="Puedes solicitar información aquí">
     <i class="ri-mail-send-line"></i>
   </a>
-
-  <!--===============================
-  HEADER & NAV
-  ================================-->
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="../index.html">
-          <img src="../assets/img/logo.png" alt="logo" class="main-logo">
+          <img src="../assets/img/logo.png" alt="Logo de la Academia" class="main-logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">MENU
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Menu de navegación">MENU
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -117,10 +114,6 @@
     </nav>
   </header>
 
-  <!--===============================
-  MAIN
-  ================================-->
-
   <main>
 
     <div id="particles-js" class="particles-js"></div>
@@ -147,9 +140,8 @@
         <div class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-1.avif" type="image/avif">
               <source srcset="../assets/img/course-1.webp" type="image/webp">
-              <img src="../assets/img/course-1.jpg" alt="Desarrollo Web">
+              <img src="../assets/img/course-1.jpg" alt="Imagen de curso de Desarrollo Web">
             </picture>
           </div>
           <div class="col-2">
@@ -164,12 +156,12 @@
               cómo presentar un presupuesto y atender a tu cliente final.
             </p>
             <div class="icons">
-              <img src="../assets/icons/html5.png" alt="html5" loading="lazy">
-              <img src="../assets/icons/css3.png" alt="css3" loading="lazy">
-              <img src="../assets/icons/js.png" alt="js" loading="lazy">
-              <img src="../assets/icons/bootstrap.png" alt="bootstrap" loading="lazy">
-              <img src="../assets/icons/sass.png" alt="sass" loading="lazy">
-              <img src="../assets/icons/react.png" alt="react" loading="lazy">
+              <img src="../assets/icons/html5.png" alt="logo de html5" loading="lazy">
+              <img src="../assets/icons/css3.png" alt="logo de css3" loading="lazy">
+              <img src="../assets/icons/js.png" alt="logo de js" loading="lazy">
+              <img src="../assets/icons/bootstrap.png" alt="logo de bootstrap" loading="lazy">
+              <img src="../assets/icons/sass.png" alt="logo de sass" loading="lazy">
+              <img src="../assets/icons/react.png" alt="logo de react" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -178,9 +170,8 @@
         <div id="marketing" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-2.avif" type="image/avif">
               <source srcset="../assets/img/course-2.webp" type="image/webp">
-              <img src="../assets/img/course-2.jpg" alt="Marketing Digital" loading="lazy">
+              <img src="../assets/img/course-2.jpg" alt="Imagen de curso de Marketing Digital" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -194,10 +185,10 @@
               Aprenderás hacer campañas para facebook e instagram, google adsense, y google analytics.
             </p>
             <div class="icons">
-              <img src="../assets/icons/meta.png" alt="meta" loading="lazy">
-              <img src="../assets/icons/instagram.png" alt="instagram" loading="lazy">
-              <img src="../assets/icons/ads.png" alt="google ads" loading="lazy">
-              <img src="../assets/icons/analytics.png" alt="google analytics" loading="lazy">
+              <img src="../assets/icons/meta.png" alt="Logo de meta" loading="lazy">
+              <img src="../assets/icons/instagram.png" alt="Logo de instagram" loading="lazy">
+              <img src="../assets/icons/ads.png" alt="Logo de google ads" loading="lazy">
+              <img src="../assets/icons/analytics.png" alt="Logo de google analytics" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -206,9 +197,8 @@
         <div id="imagenes" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-3.avif" type="image/avif">
               <source srcset="../assets/img/course-3.webp" type="image/webp">
-              <img src="../assets/img/course-3.jpg" alt="Edición de Imágenes" loading="lazy">
+              <img src="../assets/img/course-3.jpg" alt="Imagen de curso de Edición de Imágenes" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -222,9 +212,9 @@
               tanto ideas como conceptos mediante el uso del lenguaje visual.
             </p>
             <div class="icons">
-              <img src="../assets/icons/ps.png" alt="adobe photoshop" loading="lazy">
-              <img src="../assets/icons/lr.png" alt="adobe lightroom" loading="lazy">
-              <img src="../assets/icons/ai.png" alt="adobe illustrator" loading="lazy">
+              <img src="../assets/icons/ps.png" alt="Logo de adobe photoshop" loading="lazy">
+              <img src="../assets/icons/lr.png" alt="Logo de adobe lightroom" loading="lazy">
+              <img src="../assets/icons/ai.png" alt="Logo de adobe illustrator" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -233,9 +223,8 @@
         <div id="video" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-4.avif" type="image/avif">
               <source srcset="../assets/img/course-4.webp" type="image/webp">
-              <img src="../assets/img/course-4.jpg" alt="Edición de Video" loading="lazy">
+              <img src="../assets/img/course-4.jpg" alt="Imagen de curso de Edición de Video" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -250,8 +239,8 @@
               para redes sociales y otras plataformas.
             </p>
             <div class="icons">
-              <img src="../assets/icons/pr.png" alt="adobe premiere pro" loading="lazy">
-              <img src="../assets/icons/ae.png" alt="adobe after effects" loading="lazy">
+              <img src="../assets/icons/pr.png" alt="Logo de adobe premiere pro" loading="lazy">
+              <img src="../assets/icons/ae.png" alt="Logo de adobe after effects" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -260,9 +249,8 @@
         <div id="apps" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-5.avif" type="image/avif">
               <source srcset="../assets/img/course-5.webp" type="image/webp">
-              <img src="../assets/img/course-5.jpg" alt="Desarrollo de Apps" loading="lazy">
+              <img src="../assets/img/course-5.jpg" alt="Imagen de curso de Desarrollo de Apps" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -277,8 +265,8 @@
               estarás en condiciones de desarrollar, implementar y desplegar tu propia aplicación móvil.
             </p>
             <div class="icons">
-              <img src="../assets/icons/android.png" alt="android" loading="lazy">
-              <img src="../assets/icons/ios.png" alt="ios" loading="lazy">
+              <img src="../assets/icons/android.png" alt="Logo de android" loading="lazy">
+              <img src="../assets/icons/ios.png" alt="Logo de ios" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -287,9 +275,8 @@
         <div id="ux" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-6.avif" type="image/avif">
               <source srcset="../assets/img/course-6.webp" type="image/webp">
-              <img src="../assets/img/course-6.jpg" alt="Diseño UX / UI" loading="lazy">
+              <img src="../assets/img/course-6.jpg" alt="Imagen de curso de Diseño UX / UI" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -304,8 +291,8 @@
               disciplinas proyectuales.
             </p>
             <div class="icons">
-              <img src="../assets/icons/figma.png" alt="figma" loading="lazy">
-              <img src="../assets/icons/xd.png" alt="adobe XD" loading="lazy">
+              <img src="../assets/icons/figma.png" alt="Logo de figma" loading="lazy">
+              <img src="../assets/icons/xd.png" alt="Logo de adobe XD" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -314,9 +301,8 @@
         <div id="copywriting" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-7.avif" type="image/avif">
               <source srcset="../assets/img/course-7.webp" type="image/webp">
-              <img src="../assets/img/course-7.jpg" alt="Copywriting" loading="lazy">
+              <img src="../assets/img/course-7.jpg" alt="Imagen de curso de Copywriting" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -331,8 +317,8 @@
               esta prometedora disciplina.
             </p>
             <div class="icons">
-              <img src="../assets/icons/answer.png" alt="answer" loading="lazy">
-              <img src="../assets/icons/trends.png" alt="google trends" loading="lazy">
+              <img src="../assets/icons/answer.png" alt="Logo de answer" loading="lazy">
+              <img src="../assets/icons/trends.png" alt="Logo de google trends" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -341,9 +327,8 @@
         <div id="redes" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-8.avif" type="image/avif">
               <source srcset="../assets/img/course-8.webp" type="image/webp">
-              <img src="../assets/img/course-8.jpg" alt="Redes Informáticas" loading="lazy">
+              <img src="../assets/img/course-8.jpg" alt="Imagen de curso de Redes Informáticas" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -359,7 +344,7 @@
               direccionamiento IPv4; y entender los fundamentos de direccionamiento IPv6, entre otras cosas más.
             </p>
             <div class="icons">
-              <img src="../assets/icons/redes.png" alt="redes" loading="lazy">
+              <img src="../assets/icons/redes.png" alt="Logo de redes" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -368,9 +353,8 @@
         <div id="data" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-9.avif" type="image/avif">
               <source srcset="../assets/img/course-9.webp" type="image/webp">
-              <img src="../assets/img/course-9.jpg" alt="Data Science" loading="lazy">
+              <img src="../assets/img/course-9.jpg" alt="Imagen de curso de Data Science" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -386,7 +370,7 @@
               estado puro.
             </p>
             <div class="icons">
-              <img src="../assets/icons/python.png" alt="python" loading="lazy">
+              <img src="../assets/icons/python.png" alt="Logo de python" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -395,9 +379,8 @@
         <div id="ciberseguridad" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-10.avif" type="image/avif">
               <source srcset="../assets/img/course-10.webp" type="image/webp">
-              <img src="../assets/img/course-10.jpg" alt="Ciberseguridad" loading="lazy">
+              <img src="../assets/img/course-10.jpg" alt="Imagen de curso de Ciberseguridad" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -412,7 +395,7 @@
               mantener una organización segura.
             </p>
             <div class="icons">
-              <img src="../assets/icons/ciberseguridad.png" alt="ciberseguridad" loading="lazy">
+              <img src="../assets/icons/ciberseguridad.png" alt="Logo de ciberseguridad" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -421,9 +404,8 @@
         <div id="criptomonedas" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-11.avif" type="image/avif">
               <source srcset="../assets/img/course-11.webp" type="image/webp">
-              <img src="../assets/img/course-11.jpg" alt="Criptomonedas" loading="lazy">
+              <img src="../assets/img/course-11.jpg" alt="Imagen de curso de Criptomonedas" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -437,8 +419,8 @@
               También aprendrás a operar y hacer trading desde plataformas como Binance y Kucoin.
             </p>
             <div class="icons">
-              <img src="../assets/icons/binance.png" alt="binance" loading="lazy">
-              <img src="../assets/icons/kucoin.png" alt="kucoin" loading="lazy">
+              <img src="../assets/icons/binance.png" alt="Logo de binance" loading="lazy">
+              <img src="../assets/icons/kucoin.png" alt="Logo de kucoin" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -447,9 +429,8 @@
         <div id="liderazgo" class="course-info">
           <div class="col-1">
             <picture>
-              <source srcset="../assets/img/course-12.avif" type="image/avif">
               <source srcset="../assets/img/course-12.webp" type="image/webp">
-              <img src="../assets/img/course-12.jpg" alt="Liderazgo" loading="lazy">
+              <img src="../assets/img/course-12.jpg" alt="Imagen de curso de Liderazgo" loading="lazy">
             </picture>
           </div>
           <div class="col-2">
@@ -463,7 +444,7 @@
               para gestionar eficazmente equipos de trabajo de alto rendimiento y nuevos modelos de comunicación.
             </p>
             <div class="icons">
-              <img src="../assets/icons/liderazgo.png" alt="Liderazgo" loading="lazy">
+              <img src="../assets/icons/liderazgo.png" alt="Logo de Liderazgo" loading="lazy">
             </div>
             <a href="../pages/contacto.html#contact" class="btn btn-outline-dark mt-5">Consultar!</a>
           </div>
@@ -476,14 +457,9 @@
     </section>
   </main>
 
-  <!--===============================
-  FOOTER
-  ================================-->
-
   <footer>
     <div class="container">
       <div class="box">
-
         <div class="col">
           <h2>ACADEMIA IT</h2>
           <a href="../index.html">Home</a>
@@ -492,13 +468,11 @@
           <a href="./cursos.html">Cursos</a>
           <a href="./contacto.html">Contacto</a>
         </div>
-
         <div class="col">
           <h2>Términos</h2>
           <a href="#0">Términos y condiciones</a>
           <a href="#0">Políticas de privacidad</a>
         </div>
-
         <div class="col">
           <h2>Redes</h2>
           <div class="socials">
@@ -519,26 +493,13 @@
             </a>
           </div>
         </div>
-
       </div>
-
       <p class="copy">&#169; 2023 | Todos los derechos reservados</p>
       <a href="#" aria-label="volver arriba">
         <i class="ri-arrow-up-s-line arrow"></i>
       </a>
     </div>
   </footer>
-
-  <!--===============================
-  SCRIPTS
-  ================================-->
-
-  <!-- Particles Js -->
-  <script src="../js/particles.min.js"></script>
-  <script src="../js/particles.js"></script>
-
-  <!-- Bootstrap Js -->
-  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

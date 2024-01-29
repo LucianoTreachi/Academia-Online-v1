@@ -2,11 +2,32 @@
 <html lang="es">
 
 <head>
-  <title>ACADEMIA IT | Contacto</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACADEMIA IT | Contacto</title>
   <meta name="description" content="Podés solicitar información aquí">
+
+  <!-- Google Fonts -->
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+  <!-- Preload -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="preload" as="style" href="../css/bootstrap.min.css">
+  <link rel="preload" as="style" href="../css/styles.css">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Scripts -->
+  <script src="../js/particles.min.js" defer></script>
+  <script src="../js/particles.js" defer></script>
+  <script src="../js/bootstrap.bundle.min.js" defer></script>
 
   <!-- Open Graph -->
   <meta property="og:title" content="ACADEMIA IT | Contacto">
@@ -29,45 +50,21 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/icons/favicon.ico">
-
-  <!-- Google Fonts -->
-  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
-
-  <!-- Remix Icon -->
-  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-
-  <!-- Bootstrap CSS -->
-  <link rel="preload" as="style" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-
-  <!-- CSS -->
-  <link rel="preload" as="style" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-
-  <!--===============================
-  HEADER & NAV
-  ================================-->
-
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
 
         <!-- Logo -->
         <a class="navbar-brand" href="../index.html">
-          <img src="../assets/img/logo.png" alt="logo" class="main-logo">
+          <img src="../assets/img/logo.png" alt="Logo de la Academia" class="main-logo">
         </a>
 
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">MENU
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Menu de navegación">MENU
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -115,10 +112,6 @@
     </nav>
   </header>
 
-  <!--===============================
-  MAIN
-  ================================-->
-
   <main>
 
     <div id="particles-js" class="particles-js"></div>
@@ -147,26 +140,26 @@
           <div class="col-1">
             <p>Dejanos tus datos y te enviaremos toda la información correspondiente</p>
 
-            <form id="form" autocomplete="off">
+            <form id="form">
               <div class="container-input">
-                <label class="label-input" for="">Nombre</label>
-                <input type="text" id="" required>
+                <label class="label-input" for="name">Nombre</label>
+                <input type="text" id="name" autocomplete="on" required>
               </div>
 
               <div class="container-input">
-                <label class="label-input" for="">Apellido</label>
-                <input type="text" id="" required>
+                <label class="label-input" for="surname">Apellido</label>
+                <input type="text" id="surname" autocomplete="on" required>
               </div>
 
               <div class="container-input">
-                <label class="label-input" for="">Email</label>
-                <input type="email" id="" required>
+                <label class="label-input" for="email">Email</label>
+                <input type="email" id="email" autocomplete="on" required>
               </div>
 
               <p>Quiero consultar por el curso de:</p>
-              
+
               <div class="select-box">
-                <select id="select">
+                <select id="select" aria-label="Seleccionar un curso">
                   <option>Desarrollo Web</option>
                   <option>Marketing Digital</option>
                   <option>Edición de Imágenes</option>
@@ -188,9 +181,8 @@
 
           <div class="col-2">
             <picture>
-              <source srcset="../assets/img/contact.avif" type="image/avif">
               <source srcset="../assets/img/contact.webp" type="image/webp">
-              <img src="../assets/img/contact.jpg" alt="banner contacto">
+              <img src="../assets/img/contact.jpg" alt="Imagen de personas">
             </picture>
           </div>
         </div>
@@ -202,14 +194,9 @@
     </div>
   </main>
 
-  <!--===============================
-  FOOTER
-  ================================-->
-
   <footer>
     <div class="container">
       <div class="box">
-
         <div class="col">
           <h2>ACADEMIA IT</h2>
           <a href="../index.html">Home</a>
@@ -218,13 +205,11 @@
           <a href="./cursos.html">Cursos</a>
           <a href="./contacto.html">Contacto</a>
         </div>
-
         <div class="col">
           <h2>Términos</h2>
           <a href="#0">Términos y condiciones</a>
           <a href="#0">Políticas de privacidad</a>
         </div>
-
         <div class="col">
           <h2>Redes</h2>
           <div class="socials">
@@ -245,26 +230,13 @@
             </a>
           </div>
         </div>
-
       </div>
-
       <p class="copy">&#169; 2023 | Todos los derechos reservados</p>
       <a href="#" aria-label="volver arriba">
         <i class="ri-arrow-up-s-line arrow"></i>
       </a>
     </div>
   </footer>
-
-  <!--===============================
-  SCRIPTS
-  ================================-->
-
-  <!-- Particles Js -->
-  <script src="../js/particles.min.js"></script>
-  <script src="../js/particles.js"></script>
-
-  <!-- Bootstrap Js -->
-  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
