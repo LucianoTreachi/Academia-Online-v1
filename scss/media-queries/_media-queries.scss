@@ -68,6 +68,14 @@
 
 /* Media Queries: when touch 576px */
 @media only screen and (max-width: 576px) {
+  .float-btn {
+    right: 1rem;
+  }
+
+  .section-pages {
+    padding: 4rem 1rem;
+  }
+
   .title-section {
     text-align: left;
   }
@@ -80,18 +88,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../assets/img/home-mobile.webp");
     min-height: 60svh;
+    padding: 4rem 1rem;
   }
 
   .cards-home {
-    padding: 4rem 2rem 6rem;
+    padding: 4rem 1rem 6rem;
   }
 
   .live-classes {
-    padding: 0 2rem 8rem;
+    padding: 0 1rem 8rem;
   }
 
   .professionals {
-    padding: 0 2rem 6rem;
+    padding: 0 1rem 6rem;
 
     .professionals-container {
       .swiper-button-next {
@@ -105,7 +114,7 @@
   }
 
   .benefits {
-    padding: 0 2rem 6rem;
+    padding: 0 1rem 6rem;
 
     .box {
       gap: 0;
@@ -113,11 +122,15 @@
   }
 
   .faqs {
-    padding: 0 2rem 6rem;
+    padding: 0 1rem 6rem;
   }
 
   .newsletter {
-    padding: 0 2rem 6rem;
+    padding: 0 1rem 6rem;
+  }
+
+  footer {
+    padding: 4rem 1rem;
   }
 
   .courses {

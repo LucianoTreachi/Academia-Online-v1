@@ -51,6 +51,8 @@
 
   .card {
     min-height: 100%;
+    border: 0;
+    box-shadow: 0 8px 16px -3px #00968820;
 
     .card-body {
       background: transparent;
@@ -58,11 +60,13 @@
 
       i {
         font-size: 4rem;
+        opacity: 0.9;
       }
 
       h3 {
         font-size: 1.5rem;
         font-weight: 600;
+        opacity: 0.9;
         margin-bottom: 1rem;
       }
 
@@ -200,7 +204,7 @@
   padding: 0 2rem 8rem;
 
   .container {
-    max-width: 1200px;
+    max-width: 800px;
   }
 
   .accordion {
