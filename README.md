@@ -4,19 +4,13 @@
 
 ## Tecnologías utilizadas
 
-- **HTML:** Estructura y contenido.
-
-- **Bootstrap:** Componentes reutilizables.
-
-- **Sass:** Organización y personalización de estilos.
-
-- **JavaScript:** Funcionalidad interactiva.
-
-- **WOW JS:** Animaciones al desplazarse por la página.
-
-- **Particles JS:** Efectos de partículas dinámicas.
-
-- **Swiper JS:** Carrusel de contenido interactivo.
+- HTML
+- Bootstrap
+- Sass
+- JavaScript
+- WOW JS
+- Particles JS
+- Swiper JS
 
 ## Explora el sitio web
 
